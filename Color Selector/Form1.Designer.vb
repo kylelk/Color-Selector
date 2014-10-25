@@ -117,7 +117,7 @@ Partial Class colorSelectForm
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(33, 18)
+        Me.Label1.Location = New System.Drawing.Point(33, 17)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 13)
         Me.Label1.TabIndex = 0
@@ -126,11 +126,11 @@ Partial Class colorSelectForm
         'hexColor
         '
         Me.hexColor.AutoSize = True
-        Me.hexColor.Location = New System.Drawing.Point(95, 18)
+        Me.hexColor.Location = New System.Drawing.Point(95, 17)
         Me.hexColor.Name = "hexColor"
-        Me.hexColor.Size = New System.Drawing.Size(50, 13)
+        Me.hexColor.Size = New System.Drawing.Size(31, 13)
         Me.hexColor.TabIndex = 1
-        Me.hexColor.Text = "#000000"
+        Me.hexColor.Text = "0,0,0"
         '
         'colorSelectForm
         '
