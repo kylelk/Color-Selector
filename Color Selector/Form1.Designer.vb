@@ -145,6 +145,7 @@ Partial Class colorSelectForm
         Me.Controls.Add(Me.gBar)
         Me.Controls.Add(Me.rNum)
         Me.Controls.Add(Me.rBar)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "colorSelectForm"
         Me.Text = "Color Selector"
         CType(Me.rBar, System.ComponentModel.ISupportInitialize).EndInit()
